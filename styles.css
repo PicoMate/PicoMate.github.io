@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'DepartureMono';
+    src: url('fonts/DepartureMonoNerdFont-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'DepartureMono', monospace;
+    background-color: black;
+}
+
+.title {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.title img {
+    max-width: 400px;
+    height: auto;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons a {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: #FF7518;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: none;
+    border-right: 2px solid #FF7518;
+}
+
+.box-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.big-box,
+.big-box2 {
+    width: 1000px;
+    background-color: black;
+    color: #FF7518;
+    border: 5px solid #FF7518;
+    padding: 20px;
+    font-size: 24px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.big-box > * + *,
+.big-box2 > * + * {
+    margin-top: 1em;
+}
+
+.big-box a,
+.big-box2 a {
+    color: #FFA500;
+    text-decoration: underline;
+}
