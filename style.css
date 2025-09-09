@@ -1,0 +1,49 @@
+h1 {text-align: center;}
+p {text-align: center;}
+img {text-align: center;}
+
+a:link {
+  color: #FF7518;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FF7518;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff954f;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #FF7518;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+hr.hrpo {
+    border: 1px solid #FF7518;
+    width: 75%;
+    margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'DepartureMono';
+  src: url('DepartureMonoNerdFont-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.boxy {
+  background-color: black;
+  width: 65%;
+  border: 2px solid #FF7518;
+  padding: 50px;
+  margin: 20px;
+  margin-inline: auto;
+}
